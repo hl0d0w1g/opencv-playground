@@ -34,7 +34,7 @@ while(True):
 	im2, contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
 	# Delete the small contours
-	contours = list(filter(lambda cnt: cv2.contourArea(cnt) > 5000, contours)) 
+	contours = list(filter(lambda cnt: cv2.contourArea(cnt) > 1000, contours)) 
 
 	# Calculate the position and the minimum enclosing circle
 	approx, center, radius = [], [], []
