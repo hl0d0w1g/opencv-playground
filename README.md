@@ -3,6 +3,7 @@ Small repository with an OpenCV playground programmed in Python. You can see the
 
  * trackRedObjects.py: Mark the position of all red objects in the image
  * roadLaneDetection.py: Mark the lines of the lane you are driving in the image
+ * motion_detection_alarm: Detects if there is any movement in the image and send an email (using Gmail API) with the video.
  
  ## Author
 
@@ -10,7 +11,7 @@ Small repository with an OpenCV playground programmed in Python. You can see the
 
 ## Last update
 
-December 21, 2018
+March 26, 2021
 
 ## License
 
