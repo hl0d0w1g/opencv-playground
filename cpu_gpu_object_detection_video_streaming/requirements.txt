@@ -38,4 +38,4 @@ torch==1.7.1
 torchaudio==0.10.0+cpu
 torchvision==0.8.2
 typing-extensions==3.10.0.2
-urllib3==1.26.7
+urllib3==1.26.5
