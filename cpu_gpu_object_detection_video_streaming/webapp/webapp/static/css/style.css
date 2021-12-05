@@ -1,0 +1,36 @@
+:root {
+    --main-color: #53caff;
+}
+
+.video-stream {
+    border-radius: 10px;
+}
+
+.info {
+    color: var(--main-color);
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.processing-unit-button {
+    padding: 10px 30px;
+}
+
+.btn-outline-primary {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: var(--main-color) !important;
+    background-color: white !important;
+    border-color: var(--main-color) !important;
+    box-shadow: none !important;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary:checked, 
+.btn-outline-primary::before, .btn-check:checked+.btn-outline-primary {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: white !important;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+    box-shadow: none !important;
+}
